@@ -24,7 +24,15 @@ def create_app(test_config=None):
         pass
 
     @app.route('/')
-    def hello():
+    def index():
         return send_from_directory('templates','index.html')
+
+    @app.route('/checkout')
+    def checkout():
+        return send_from_directory('templates', 'checkout.html')
+
+    @app.route('/oncampus')
+    def oncampus():
+        return send_from_directory('templates', 'oncampus.html')
 
     return app
