@@ -1,0 +1,1 @@
+In this project, I learnt how to create a login page and optimize the webpage for different devices. In addition to this, I learnt how to customize the logo that you get when you add a webpage to the homescreen on an iPhone. 

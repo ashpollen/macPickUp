@@ -1,0 +1,279 @@
+body {
+    background-color: lightpink;
+}
+h3 {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    font-size: 58px;
+    font-family: fantasy;
+    color: darkslateblue;
+}
+
+h5 {
+    position: relative;
+    bottom: 5%;
+    box-sizing: border-box;
+    width: 95%;
+    float: left;
+    padding-left: 15%;
+    text-align: center;
+    font-family: cursive;
+}
+
+#ecode {
+    position: relative;
+    top: 2%;
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+#Register {
+    position: relative;
+    top: 7%;
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rster {
+    position: relative;
+    top: 6%;
+    left: 25%;
+    box-sizing: border-box;
+    width: 50%;
+    font-size: 40px;
+    font-family: fantasy;
+    color: darkslategrey;
+    font-weight: 600;
+    font: bold;
+    z-index: -100;
+}
+
+#fname {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    border-style: inset;
+    border-color: whitesmoke;
+}
+
+#lname {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px; 
+    border-style: inset;
+    border-color: whitesmoke;
+}
+
+#email {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    border-style: inset;
+    border-color: whitesmoke;
+}
+
+#snumber {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    border-style: inset;
+    border-color: whitesmoke;
+}
+
+#pnumber {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    border-style: inset;
+    border-color: whitesmoke;
+}
+
+#P2 {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    border-style: inset;
+    background-color: whitesmoke;
+}
+
+#smit {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    background-color: #4CAF50;
+    border-style: inset;
+    border-color: whitesmoke;
+}
+
+#demo {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    font-size: 12px;
+    font-family: fantasy;
+    color: darkslateblue;
+}
+
+@media screen and (min-width: 800px) {
+    
+body {
+     background-image: url(wood.jpg);
+     background-size: 20%;
+    }
+h3 {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 88px;
+    font-family: fantasy;
+    color: darkslateblue;
+    }
+    
+h5 {
+    margin: auto;
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px
+    }
+    
+  #ecode {
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    padding: 2%;
+    text-align: center;
+    background-color: whitesmoke;
+    font-size: 20px;
+    }
+
+#Register {
+    position: relative;
+    top: 7%;
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rster {
+    position: relative;
+    top: 6%;
+    left: 42%;
+    box-sizing: border-box;
+    width: 50%;
+    font-size: 40px;
+    font-family: fantasy;
+    color: darkslategrey;
+    font-weight: 600;
+    font: bold;
+}
+
+#fname {
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    border-style: inset;
+    background-color: whitesmoke;
+}
+
+#lname {
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px; 
+    border-style: inset;
+    background-color: whitesmoke;
+}
+
+#email {
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    border-style: inset;
+    background-color: whitesmoke;
+}
+
+#snumber {
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    border-style: inset;
+    background-color: whitesmoke;
+}
+
+#pnumber {
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    border-style: inset;
+    background-color: whitesmoke;
+}
+
+#P2 {
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    border-style: inset;
+    background-color: whitesmoke;
+}
+
+#smit {
+    box-sizing: border-box;
+    width: 50%;
+    position: relative;
+    top: 15%;
+    left: 25%;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    background-color: #4CAF50;
+    border-style: inset;
+    border-color: whitesmoke;
+}
+}

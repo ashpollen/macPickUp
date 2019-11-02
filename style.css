@@ -1,0 +1,208 @@
+body {
+    background-color: aliceblue;
+    transform: scale(0.98);
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 48px;
+    text-align: center;
+    padding: 20px;
+    color: maroon;
+    font-style: italic;
+}
+
+h3 {
+    border-style: double;
+    width: 100%;
+    font-family: cursive;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+#SignUp {
+    visibility: hidden;
+}
+
+#Login {
+    visibility: hidden;
+}
+
+#uame {
+    visibility: hidden;
+}
+
+#pord {
+    visibility: hidden;
+}
+img {
+    visibility: hidden;
+}
+
+#uname {
+    visibility: hidden;
+}
+
+#fname {
+    visibility: hidden;
+}
+
+#lname {
+    visibility: hidden;
+}
+
+#pword {
+    visibility: hidden;
+}
+
+#enter {
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #4CAF50;
+}
+
+#submit {
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #4CAF50;
+}
+
+@media screen and (min-width: 800px) {
+h1 {
+        font-size: 70px;
+    }
+    
+h3 {
+        box-sizing: border-box;
+        width: 65%;
+        font-size: 25px;
+        padding-bottom: 2%;
+        padding-top: 2%;
+    }
+    
+#SignUp {
+    visibility: visible;
+    position: absolute;
+    right: 100px;
+    top: 445px;
+    z-index: -1;
+    border-style: double;
+    width: 25%;
+    height: 43%;
+    text-align: center;
+    padding-top: 30px;
+    font-family: fantasy;
+    margin-left: inherit;  
+    font-size: 25px;
+    } 
+    
+#Login {
+    visibility: visible;
+    position: absolute;
+    left: 100px;
+    top: 445px;
+    z-index: -1;
+    border-style: double;
+    width: 25%;
+    height: 43%;
+    text-align: center;
+    padding-top: 30px;
+    font-family: fantasy;
+    margin-left: inherit;
+    font-size: 25px;
+    }
+    
+#fname {
+    visibility: visible;
+    position: absolute;
+    right: 130px;
+    top: 550px;
+    width: 22%;
+    padding: 12px 12px;
+    text-align: center;
+    }
+    
+#lname {
+    visibility: visible;
+    position: absolute;
+    right: 130px;
+    top: 610px;
+    width: 22%;
+    padding: 12px 12px;
+    text-align: center;
+}
+
+#uname {
+    visibility: visible;
+    position: absolute;
+    right: 130px;
+    top: 675px;
+    width: 22%;
+    padding: 12px 12px;
+    text-align: center;
+}
+
+#pword {
+    visibility: visible
+    position: absolute;
+    right: 130px;
+    top: 692px;
+    width: 22%;
+    padding: 12px 12px;
+    text-align: center; 
+}
+
+#submit {
+    visibility: visible;
+    position: absolute;
+    right: 185px;
+    top: 742px;
+    width: 14%;
+    padding: 12px 12px;
+    background-color: #4CAF50;
+}
+
+#uame {
+    visibility: visible;
+    position: absolute;
+    left: 130px;
+    top: 550px;
+    width: 22%;
+    padding: 12px 12px;
+    text-align: center;
+}
+
+#pord {
+    visibility: visible;
+    position: absolute;
+    left: 130px;
+    top: 625px;
+    width: 22%;
+    padding: 12px 12px;
+    text-align: center;
+}
+
+#enter {
+    visibility: visible;
+    position: absolute;
+    left: 185px;
+    top: 712px;
+    width: 14%;
+    padding: 12px 12px;
+    background-color: #4CAF50; 
+}
+
+img {
+    visibility: visible;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+}

@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.7">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <link rel="apple-touch-icon" sizes="120x120" href="veggie.png">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>JassEats</title>
+        <!--this will allow the user to confirm that the information they are entering is accurate when registering-->
+        <script>
+                function pop() {
+                var txt;
+                if (confirm("Do You Want to Submit")) {
+                    txt = "Congratulations! You have Submitted Your Information";
+                } else {
+                    txt = "You pressed Cancel!";
+                }
+            document.getElementById("demo").innerHTML = txt;
+            }
+        </script>
+    </head>
+    <body>
+        <h1>JassEats</h1>
+        <h3>
+            JassEats is an interactive web app that allows students at JASS to order food at the JASS Cafeteria. Through the help of this app, students will be able to put food on hold till a certain time at which time the food will be taken off hold. Sign Up Now or Log In to use this incredible service!
+        </h3>
+        <p id="demo"></p>
+        
+        <div class="JEats" id="SignUp"> Sign Up </div>
+        <div>
+            <form action="verify.html" method="post">
+                
+                <input type="text" id="fname" name="firstname" placeholder="First Name">
+                
+                <input type="text" id="lname" name="lastname" placeholder="Last Name">
+                
+                <input type="text" id="uname" name="username" placeholder="Username">
+                
+                <input type="text" id="pword" name="password" placeholder="Password">
+                
+                <input type="submit" id="submit" value="Submit"/ onclick="pop()">
+  
+            </form>
+        </div>
+                <div class="JEats" id="Login"> Login </div>
+        <div>
+            <form action="/action_page.php">
+                
+             <input type="text" id="uame" name="username" placeholder="Username">  
+                
+             <input type="text" id="pord" name="password" placeholder="Password">
+                
+             <input type="submit" id="enter" value="Enter">
+                </form>
+        </div>
+        <div class="JEats" id="flowers">
+            <img src="veggie.png"/>
+        </div>
+    </body>
+</html>
