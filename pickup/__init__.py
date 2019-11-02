@@ -27,11 +27,11 @@ def create_app(test_config=None):
     def index():
         return send_from_directory('templates','index.html')
 
-    @app.route('/checkout')
+    @app.route('/checkout.html')
     def checkout():
         return send_from_directory('templates', 'checkout.html')
 
-    @app.route('/oncampus')
+    @app.route('/oncampus.html')
     def oncampus():
         return send_from_directory('templates', 'oncampus.html')
 
